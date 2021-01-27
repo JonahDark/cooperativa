@@ -1,0 +1,8 @@
+<odoo>
+    <data>
+        <menuitem name="Cooperativa" id="cooperativa.menu_root" />
+        <menuitem name="Campanya" id="cooperativa.menu_campanya" parent="cooperativa.menu_root" action="cooperativa.action_window_campanya"/>
+        <menuitem name="Producto" id="cooperativa.menu_producto" parent="cooperativa.menu_root" action="cooperativa.action_window_producto"/>
+        <menuitem name="Socio" id="cooperativa.menu_socio" parent="cooperativa.menu_root" action="cooperativa.action_window_socio"/>        
+    </data>
+</odoo>
